@@ -1,23 +1,1106 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <title>"남들은 더 싸게 가입했대!" 국산차 보험료 호갱 탈출 보장 필수 비교 모음</title>
+ 
+
+  
+    <style>
+        :root {
+            --primary-color: #3b82f6; /* Soft Blue */
+            --secondary-color: #10b981; /* Soft Green */
+            --background-light: #f9fafb; /* Very Light Gray */
+            --card-background: #ffffff;
+            --text-dark: #1f2937; /* Dark Gray */
+            --text-medium: #4b5563; /* Medium Gray */
+            --border-color: #e5e7eb;
+        }
+
+        body {
+            font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+            background-color: var(--background-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0 0 10px 0;
+            font-weight: 800;
+        }
+
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .category-section {
+            background-color: var(--card-background);
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+            padding: 30px;
+            border-left: 5px solid var(--secondary-color);
+        }
+
+        .category-section h2 {
+            font-size: 1.8em;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .link-item {
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 15px;
+            background-color: #f0f9ff; /* Very light blue for contrast */
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .link-item:hover {
+            box-shadow: 0 6px 15px rgba(59, 130, 246, 0.2);
+            transform: translateY(-3px);
+            background-color: #e0f2fe; /* Lighter blue on hover */
+        }
+
+        .link-item h3 {
+            font-size: 1.1em;
+            color: var(--text-dark);
+            margin: 0 0 10px 0;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .link-item a {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: 600;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 0.95em;
+        }
+
+        .link-item a:hover {
+            text-decoration: underline;
+            color: var(--secondary-color);
+        }
+
+        .link-description {
+            font-size: 0.9em;
+            color: var(--text-medium);
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .link-description a {
+            color: inherit;
+            text-decoration: none;
+            display: block;
+            padding: 5px 0;
+            line-height: 1.4;
+        }
+        
+        .link-description a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+            color: var(--text-medium);
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9em;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .container {
+                padding: 10px;
+            }
+            .category-section {
+                padding: 20px;
+            }
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": ""남들은 더 싸게 가입했대!" 국산차 보험료 호갱 탈출 보장 필수 비교 모음",
+      "description": "다이렉트 자동차 보험료 비교부터 연령별, 차량 모델별(테슬라, 벤츠, BMW 등), 특약 정보까지 한눈에 확인하는 맞춤 가이드. 지금 바로 최저가 보험료를 계산하고 가입하세요.",
+      "url": "[YOUR_CANONICAL_URL_HERE]",
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "주요 자동차 보험 검색 카테고리",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "연령별/운전자 범위 보험료"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "국산차 모델별 보험료 (경차/소형)"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "수입/고가차 모델별 보험료"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "신차/중고차/책임보험 정보"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "다이렉트 보험 비교 및 견적"
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>"남들은 더 싸게 가입했대!" 국산차 보험료 호갱 탈출 보장 필수 비교 모음</h1>
+    </header>
+
+    <div class="container">
+        
+        <section class="category-section">
+            <h2>운전자 연령 및 범위별 보험료 최적화</h2>
+            <div class="link-grid">
+                <div class="link-item">
+                    <h3>만 26세 자동차 보험</h3>
+                    <div class="link-description">
+                        <a href="https://directcarunmea.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            20대 후반, 가장 합리적인 만 26세 보험료 산출의 비밀을 지금 공개합니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarunmea.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>20대 자동차 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://bohumpromotione.cafe24.com/" target="_blank" rel="noopener noreferrer">
+                            높은 20대 보험료, 통계적으로 낮추는 비교 견적 노하우를 여기서 발견하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://bohumpromotione.cafe24.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>만 21세 자동차 보험</h3>
+                    <div class="link-description">
+                        <a href="https://directcarunmec.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            새로운 시작, 만 21세 첫차 보험료 부담을 확 줄이는 핵심 정보입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarunmec.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>만 24세 자동차 보험</h3>
+                    <div class="link-description">
+                        <a href="https://directcarunmeg.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            만 24세 운전자만을 위한 특별 할인! 숨겨진 보험료 절약 기회를 잡으세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarunmeg.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>만 20세 자동차 보험</h3>
+                    <div class="link-description">
+                        <a href="https://directcarunmeh.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            20살 운전자, 합리적인 만 20세 보험료 설계를 위한 필수 로드맵입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarunmeh.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험 연령</h3>
+                    <div class="link-description">
+                        <a href="https://directcarunmen.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            내 나이에 맞는 정확한 자동차 보험 연령 기준 계산법을 확인하고 보험료를 아끼세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarunmen.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>만 23세 자동차 보험</h3>
+                    <div class="link-description">
+                        <a href="https://directcarunmek.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            만 23세 보험료 특혜 구간을 놓치지 마세요. 가장 저렴한 견적을 찾아 드립니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarunmek.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>만 25세 자동차 보험</h3>
+                    <div class="link-description">
+                        <a href="https://directcarunmej.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            보험료가 달라지는 만 25세 경계선! 최적의 가입 시기를 안내해 드립니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarunmej.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>20대 초반 자동차 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directcarunmb.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            부담스러운 20대 초반 보험료, 혁신적인 비교 시스템으로 절반 이상 절감하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarunmb.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>만 30세 자동차 보험</h3>
+                    <div class="link-description">
+                        <a href="https://directcarunmc.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            만 30세 운전자, 폭넓은 할인 혜택으로 보험료를 스마트하게 줄이는 방법입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarunmc.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험 만 나이</h3>
+                    <div class="link-description">
+                        <a href="https://directupromotiony.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            보험료를 결정하는 '만 나이', 헷갈리지 않고 정확히 계산하는 방법을 알려 드립니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directupromotiony.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험 가족 한정 범위</h3>
+                    <div class="link-description">
+                        <a href="https://directcarpromots.cafe24.com/" target="_blank" rel="noopener noreferrer">
+                            가족 구성원 변화에 따른 보험 적용 범위, 가장 넓고 안전하게 설정하는 팁입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarpromots.cafe24.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험 부부 한정</h3>
+                    <div class="link-description">
+                        <a href="https://carnpromotionc.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            부부가 함께 운전한다면 부부 한정 특약으로 절약하세요. 최적의 설계 가이드입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carnpromotionc.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="category-section">
+            <h2>신차, 중고차 및 필수 보장 정보</h2>
+            <div class="link-grid">
+                <div class="link-item">
+                    <h3>신차 보험 가입</h3>
+                    <div class="link-description">
+                        <a href="https://directcarunmei.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            따끈따끈한 신차, 출고 즉시 최적의 보험료로 가입하는 1분 완벽 가이드입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarunmei.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>중고차 책임 보험</h3>
+                    <div class="link-description">
+                        <a href="https://directxpromotionh.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            법적 필수! 중고차 책임 보험, 가장 저렴하고 빠르게 가입하는 방법을 찾으세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directxpromotionh.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험 책임 보험</h3>
+                    <div class="link-description">
+                        <a href="https://directupromotionv.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            최소한의 안전망, 자동차 책임 보험의 보장 범위와 최저가 가입 팁입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directupromotionv.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 종합 보험 가격</h3>
+                    <div class="link-description">
+                        <a href="http://directcarpromotb.cafe24.com/" target="_blank" rel="noopener noreferrer">
+                            종합 보험의 완전 보장! 나에게 딱 맞는 가격대로 설계하는 비교 분석입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="http://directcarpromotb.cafe24.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>새차 보험</h3>
+                    <div class="link-description">
+                        <a href="https://carvpromotionv.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            새 차를 위한 완벽한 보험 플랜! 가입부터 할인까지 전문가의 조언을 담았습니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carvpromotionv.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2>다이렉트 보험 비교 및 견적 필수</h2>
+            <div class="link-grid">
+                <div class="link-item">
+                    <h3>자동차 보험료 계산</h3>
+                    <div class="link-description">
+                        <a href="https://bohumpromotiona.cafe24.com/" target="_blank" rel="noopener noreferrer">
+                            지금 바로 1분 만에 내 자동차 보험료를 정확하게 계산하는 계산기입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://bohumpromotiona.cafe24.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>다이렉트 자동차 보험 비교 견적</h3>
+                    <div class="link-description">
+                        <a href="http://m.directcarpromotq.cafe24.com/" target="_blank" rel="noopener noreferrer">
+                            모든 보험사를 한눈에! 최저가 다이렉트 견적을 실시간으로 비교해 드립니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="http://m.directcarpromotq.cafe24.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험료 비교</h3>
+                    <div class="link-description">
+                        <a href="https://carnpromotionf.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            가장 저렴한 보험사를 찾는 비밀! 자동차 보험료 비교로 스마트한 소비를 시작하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carnpromotionf.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>실시간 자동차 보험 견적</h3>
+                    <div class="link-description">
+                        <a href="https://directupromotionx.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            기다릴 필요 없는 초스피드! 실시간으로 내 차 보험료 견적을 확인하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directupromotionx.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험 회사 순위</h3>
+                    <div class="link-description">
+                        <a href="http://directcarpromotg.cafe24.com/" target="_blank" rel="noopener noreferrer">
+                            가입 전 필수 체크! 고객 만족도와 가격을 종합한 보험사 순위를 공개합니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="http://directcarpromotg.cafe24.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험 가입 방법</h3>
+                    <div class="link-description">
+                        <a href="https://directupromotionw.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            복잡한 보험 가입, 5단계로 끝내는 가장 쉽고 완벽한 가입 절차를 안내합니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directupromotionw.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2>특정 차량 모델별 맞춤 보험료 (수입/고가/SUV)</h2>
+            <div class="link-grid">
+                <div class="link-item">
+                    <h3>테슬라 모델 Y 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directupromotiond.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            고가 수리비의 테슬라 모델 Y, 합리적인 보험료를 찾는 유일한 방법입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directupromotiond.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>벤츠 E 클래스 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carmpromotione.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            프리미엄 벤츠 E 클래스, 품격에 맞는 최저가 보험료를 바로 견적 받으세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carmpromotione.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>BMW 5 시리즈 보험료</h3>
+                    <div class="link-description">
+                        <a href="http://caropromotiong.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            다이나믹 BMW 5 시리즈, 사고율을 반영한 가장 저렴한 보험료를 비교하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="http://caropromotiong.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>G80 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directxpromotions.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            제네시스 G80 오너를 위한 특별 혜택! 대형 세단의 보험료 절약 비결입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directxpromotions.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>카니발 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directxpromotiona.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            패밀리카의 대명사 카니발, 탑승 인원에 따른 보험료 차이를 확인하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directxpromotiona.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>팰리세이드 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carmpromotiond.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            대형 SUV 팰리세이드, 특약으로 보험료를 최적화하는 전략을 알려 드립니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carmpromotiond.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>쏘렌토 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carnpromotionw.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            가장 인기 있는 SUV 쏘렌토, 모델별 가장 저렴한 보험료를 즉시 비교하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carnpromotionw.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>아반떼 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directupromotionz.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            국민 준중형차 아반떼! 대중적인 만큼 보험료도 최저가로 가입하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directupromotionz.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>아이오닉 5 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carvpromotionu.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            미래형 전기차 아이오닉 5, 특화된 보험료 할인을 놓치지 마세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carvpromotionu.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>레이 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carnpromotiong.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            경차 레이의 경제성을 극대화! 보험료도 가볍게 가입하는 비법입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carnpromotiong.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2>전기차 및 하이브리드 차량 보험료</h2>
+            <div class="link-grid">
+                <div class="link-item">
+                    <h3>전기차 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://bohumpromotiono.cafe24.com/" target="_blank" rel="noopener noreferrer">
+                            전기차 오너를 위한 특별한 보험! 배터리 보장 특약과 할인 정보를 확인하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://bohumpromotiono.cafe24.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>쏘렌토 하이브리드 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carvpromotions.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            연비와 보험료를 동시에 잡는 쏘렌토 하이브리드, 최저가 견적을 비교하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carvpromotions.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>하이브리드 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carvpromotionb.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            친환경 하이브리드 차량, 낮은 사고율로 특별 할인받는 방법을 알려 드립니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carvpromotionb.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>넥쏘 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carnpromotionz.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            수소차 넥쏘만의 독특한 보험 구조! 특별 보장과 합리적인 보험료를 찾으세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carnpromotionz.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2>자차, 책임 보험 및 보험료 할증 기준</h2>
+            <div class="link-grid">
+                <div class="link-item">
+                    <h3>자차 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directupromotiono.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            내 차를 지키는 핵심 보장, 자차 보험료를 가장 효율적으로 설계하는 방법입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directupromotiono.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자차 보험 할증</h3>
+                    <div class="link-description">
+                        <a href="https://carvpromotiony.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            사고 후 자차 보험 할증 기준은? 보험료 폭탄을 피하는 현명한 대처법입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carvpromotiony.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험 할증 기준</h3>
+                    <div class="link-description">
+                        <a href="https://bohumpromotionb.cafe24.com/" target="_blank" rel="noopener noreferrer">
+                            보험료가 오르는 명확한 기준! 할증 점수와 그에 따른 보험료 변화를 안내합니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://bohumpromotionb.cafe24.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 책임 보험 가격</h3>
+                    <div class="link-description">
+                        <a href="https://directcarpromotv.cafe24.com/" target="_blank" rel="noopener noreferrer">
+                            의무 가입 책임 보험, 최소 비용으로 최대 효과를 내는 가격 비교 정보입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarpromotv.cafe24.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="category-section">
+            <h2>운전 경력 및 기타 할인 특약</h2>
+            <div class="link-grid">
+                <div class="link-item">
+                    <h3>운전병 보험 할인</h3>
+                    <div class="link-description">
+                        <a href="https://directcarunmeb.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            군 운전병 경력, 보험료 할인으로 인정받는 숨겨진 꿀팁을 공개합니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarunmeb.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험 경력 인정</h3>
+                    <div class="link-description">
+                        <a href="https://directupromotionc.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            해외 운전, 배우자 경력 등 보험 경력 인정받아 보험료를 대폭 절감하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directupromotionc.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험 자녀 할인</h3>
+                    <div class="link-description">
+                        <a href="https://directupromotionn.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            육아는 할인이다! 자녀 유무에 따라 보험료가 달라지는 마법의 특약입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directupromotionn.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험 블랙박스 할인</h3>
+                    <div class="link-description">
+                        <a href="https://carnpromotiond.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            설치만으로 보험료 절감! 블랙박스 할인 특약 적용 기준과 혜택을 확인하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carnpromotiond.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험 특약</h3>
+                    <div class="link-description">
+                        <a href="https://carnpromotiona.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            놓치면 손해 보는 다양한 보험 특약! 나에게 필요한 것만 쏙쏙 골라 설계하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carnpromotiona.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2>국산 세단 및 해치백 모델별 보험료</h2>
+            <div class="link-grid">
+                <div class="link-item">
+                    <h3>그랜저 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directxpromotione.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            준대형 세단 그랜저 오너를 위한, 프리미엄급 보장과 합리적인 보험료입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directxpromotione.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>소나타 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directxpromotionm.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            중형 세단 소나타, 가장 대중적인 만큼 보험료 비교의 폭이 넓습니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directxpromotionm.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>K5 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directxpromotionk.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            스타일리시한 K5, 젊은 운전자를 위한 특별 보험료를 지금 확인하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directxpromotionk.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>K7 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carnpromotionj.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            고급스러운 K7, 운전자 특성에 맞는 보험료를 정밀하게 분석해 드립니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carnpromotionj.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>G70 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carnpromotions.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            스포츠 세단 G70, 높은 차량 가격을 반영한 최적의 자차 보험료를 찾으세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carnpromotions.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>K9 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://caropromotionq.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            기아의 플래그십 K9, 고가 차량에 특화된 보험 플랜을 비교해 드립니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://caropromotionq.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2>경차 및 소형차 모델별 보험료</h2>
+            <div class="link-grid">
+                <div class="link-item">
+                    <h3>경차 자동차 보험</h3>
+                    <div class="link-description">
+                        <a href="https://directxpromotionb.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            경차만의 특별 할인! 가장 경제적인 경차 보험료 가입 전략을 안내합니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directxpromotionb.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>모닝 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directxpromotioni.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            국민 경차 모닝, 낮은 보험료를 유지하면서 보장까지 챙기는 방법입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directxpromotioni.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>스파크 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directxpromotionp.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            쉐보레 스파크, 모델별 보험료 차이를 확인하고 합리적인 가입을 진행하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directxpromotionp.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>캐스퍼 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carmpromotions.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            트렌디한 경형 SUV 캐스퍼, 첫차 운전자에게 유리한 보험료를 찾아 드립니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carmpromotions.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>다마스 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://caropromotions.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            생계형 다마스 차량, 화물차 분류에 따른 보험료 절감 노하우를 확인하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://caropromotions.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2>해외 브랜드 및 외제차 모델별 보험료</h2>
+            <div class="link-grid">
+                <div class="link-item">
+                    <h3>외제차 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carvpromotionz.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            높은 외제차 수리비, 보험료를 낮추는 특별한 특약과 비교 정보를 확인하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carvpromotionz.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>BMW 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carnpromotionm.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            BMW 전 모델 통합! 가장 합리적인 다이렉트 보험료를 지금 비교하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carnpromotionm.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>벤츠 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carnpromotionn.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            고급차의 대명사 벤츠, 모델별 사고율을 반영한 최적의 보험료를 찾아 드립니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carnpromotionn.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>아우디 A6 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carnpromotiont.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            기술과 스타일의 아우디 A6, 다이렉트 견적으로 보험료를 절약하는 방법입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carnpromotiont.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>포르쉐 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carnpromotionk.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            슈퍼카 포르쉐, 압도적인 가치에 걸맞은 완벽한 보장 플랜을 안내합니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carnpromotionk.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>미니 쿠퍼 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directxpromotionr.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            개성 강한 미니 쿠퍼, 모델별 특성을 고려한 보험료 비교 분석입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directxpromotionr.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2>SUV 및 레저 차량 모델별 보험료</h2>
+            <div class="link-grid">
+                <div class="link-item">
+                    <h3>스포티지 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carnpromotioni.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            세련된 SUV 스포티지, 최신 모델의 보험료 할인율을 지금 확인하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carnpromotioni.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>투싼 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carnpromotionp.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            실속형 SUV 투싼, 다이렉트 비교를 통해 숨겨진 보험료 최저가를 찾으세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carnpromotionp.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>캠핑카 자동차 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directxpromotionu.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            특별한 목적의 캠핑카, 정확한 보험 가입 기준과 보험료를 안내합니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directxpromotionu.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>토레스 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carmpromotionq.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            개성파 SUV 토레스, 독특한 디자인만큼 특별한 보험료 비교가 필요합니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carmpromotionq.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>셀토스 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carvpromotionf.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            소형 SUV 셀토스, 연령별 최적의 보험료 구간을 찾아 드립니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carvpromotionf.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2>고성능/스포츠카 및 기타 특수 차량 보험료</h2>
+            <div class="link-grid">
+                <div class="link-item">
+                    <h3>스포츠카 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://caropromotionm.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            고성능 스포츠카의 높은 보험료, 특별 보장으로 위험을 분산시키는 방법입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://caropromotionm.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>스팅어 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://caropromotiony.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            프리미엄 퍼포먼스 세단 스팅어, 고가 차량에 특화된 보험료 비교입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://caropromotiony.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>벨로스터 N 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carvpromotionj.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            고성능 N 라인 벨로스터, 운전 스타일을 반영한 보험료를 효율적으로 산출하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carvpromotionj.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>화물차 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carvpromotiono.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            영업용 및 개인 화물차, 정확한 용도에 따른 최적의 보험료를 비교하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carvpromotiono.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>픽업 트럭 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carmpromotionb.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            레저와 실용성을 겸비한 픽업 트럭, 화물차 보험 기준을 적용해 절약하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carmpromotionb.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2>연령별 보험료 (30대, 40대, 20대 상세)</h2>
+            <div class="link-grid">
+                <div class="link-item">
+                    <h3>30대 자동차 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directcarunmer.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            운전 경력이 쌓인 30대, 가장 큰 폭의 보험료 할인을 누리는 전략입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarunmer.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>40대 자동차 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directcarunmex.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            안정적인 운전 40대, 불필요한 보장을 줄여 보험료를 최적화하는 방법입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarunmex.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>나이별 자동차 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directcarunmef.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            내 나이가 보험료를 결정한다! 연령별 사고율과 보험료 상관관계를 분석합니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarunmef.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>20살 자동차 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://bohumpromotionq.cafe24.com/" target="_blank" rel="noopener noreferrer">
+                            운전 초보 20살, 가장 저렴한 책임 보험료와 첫차 보험 가입 노하우입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://bohumpromotionq.cafe24.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>22살 자동차 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://directcarunmev.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            만 22세가 되는 순간, 보험료가 내려가는 마법! 비교 견적을 확인하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directcarunmev.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2>기타 수입차 및 고급차 모델별 보험료</h2>
+            <div class="link-grid">
+                <div class="link-item">
+                    <h3>제네시스 GV80 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carmpromotionz.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            럭셔리 SUV GV80, 차량 가액을 반영한 최적의 자차 보험 설계입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carmpromotionz.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>X5 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carvpromotionk.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            BMW X5 오너를 위한 맞춤형! 고가 수리비에 대비하는 보험 플랜입니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carvpromotionk.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>렉서스 ES300H 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carmpromotionl.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            뛰어난 정숙성의 렉서스, 브랜드 특성에 맞는 합리적인 보험료를 찾으세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carmpromotionl.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>QM6 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carmpromotionn.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            르노 QM6의 경제성! 보험료까지 절약하는 비교 견적 노하우를 공개합니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carmpromotionn.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>티볼리 보험료</h3>
+                    <div class="link-description">
+                        <a href="https://carmpromotionu.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            쌍용 티볼리 오너를 위한 특별 보험료! 가성비 높은 보장을 설계하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carmpromotionu.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2>보험료 계산 및 만기 정보</h2>
+            <div class="link-grid">
+                <div class="link-item">
+                    <h3>자동차 보험료 계산기</h3>
+                    <div class="link-description">
+                        <a href="https://directupromotione.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            복잡한 계산은 이제 그만! 실시간으로 보험료를 바로 산출해 드립니다. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directupromotione.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험 만기</h3>
+                    <div class="link-description">
+                        <a href="https://directupromotionq.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            보험 만기일 전 필수 체크리스트! 재가입 시기를 놓치지 마세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directupromotionq.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험료 할부</h3>
+                    <div class="link-description">
+                        <a href="https://directupromotiont.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            목돈 부담을 줄이는 보험료 할부 결제 방법과 이자율 정보를 확인하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://directupromotiont.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+                <div class="link-item">
+                    <h3>자동차 보험 요율</h3>
+                    <div class="link-description">
+                        <a href="https://carvpromotionw.withusdone.com/" target="_blank" rel="noopener noreferrer">
+                            내 보험료를 결정하는 핵심 요소 '요율'! 할인·할증의 기준을 완벽히 이해하세요. (클릭하여 확인)
+                        </a>
+                    </div>
+                    <a href="https://carvpromotionw.withusdone.com/" target="_blank" rel="noopener noreferrer">바로가기</a>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+    <footer>
+        <p>&copy; 자동차 보험 비교 가이드. 모든 정보는 다이렉트 보험사 비교를 위한 참고 자료입니다.</p>
+        <p>본 페이지에 포함된 링크는 외부 광고 콘텐츠를 포함할 수 있으며, 클릭 시 새 창으로 이동합니다.</p>
+    </footer>
+
+</body>
 </html>
